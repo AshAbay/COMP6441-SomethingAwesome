@@ -1,4 +1,4 @@
-from PasswordAnalyzer import PasswordAnalyzer
+from PasswordAnalyzer.PasswordAnalyzer import PasswordAnalyzer
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

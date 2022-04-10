@@ -1,4 +1,4 @@
-from RuleChecker import RuleChecker
+from PasswordAnalyzer.RuleChecker import RuleChecker
 
 class PasswordAnalyzer:
 

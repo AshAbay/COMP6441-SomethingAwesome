@@ -1,1 +1,3 @@
-pyenchant==3.2.2
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbdfda86542319be56b8fd91fc192c292feba2aa04049a7380eb8faf9c50b223
+size 27

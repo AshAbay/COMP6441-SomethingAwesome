@@ -1,6 +1,6 @@
 import enchant
 
-from Helper import Helper
+from PasswordAnalyzer.Helper import Helper
 from pathlib import Path
 import difflib
 import nltk
@@ -14,8 +14,8 @@ class RuleChecker:
         else :
             self.password = ""
         self.helper = Helper()
-        self.rockyou_lines = Path('../passwordFiles/rockyou.txt').read_text(encoding='latin-1').splitlines()
-        self.owasp_one_million_list_lines = Path('../passwordFiles/owasp_one_million_list.txt').read_text().splitlines()
+        self.rockyou_lines = Path('./passwordFiles/rockyou.txt').read_text(encoding='latin-1').splitlines()
+        self.owasp_one_million_list_lines = Path('./passwordFiles/owasp_one_million_list.txt').read_text().splitlines()
         self.english_dict = enchant.Dict("en-AU")
 
 
