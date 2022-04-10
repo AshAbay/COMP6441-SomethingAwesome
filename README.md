@@ -2,6 +2,7 @@
 ## Pre-requisites
 ### Cloning my repository
 `git clone https://github.com/AshAbay/COMP6441-SomethingAwesome.git`
+
 `cd COMP6441-SomethingAwesome`
 
 ### Install requirements from requirements file
